@@ -7,7 +7,10 @@ const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
 
-    <p className='project__description'>{project.description}</p>
+    <p className='project__description'>{project.description}</p><br/ >
+
+    {project.link && <a href={project.link} target='_blank' rel='noopener noreferrer'><h4 className='project__link-item'>View the Project</h4></a>}
+
     {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (

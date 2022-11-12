@@ -6,21 +6,23 @@
 }
 
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-bg: #f3b238;
+  --clr-bg-alt: #F5BC51;
+  --clr-fg: #367966;
+  --clr-fg-alt: #518363;
+  --clr-primary: #1a6f69;
+  --clr-stdout: #094844;
+  --shadow: #367966 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+  --clr-bg: #114856;
+  --clr-bg-alt: #2E5653;
+  --clr-fg: #D7A53C;
+  --clr-fg-alt: #BB9840;
+  --clr-primary: #f3b238;
+  --clr-stdout: #f9d490;
+  --shadow: #03313c 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
@@ -149,4 +151,8 @@ main {
   .section {
     margin-top: 4em;
   }
+}
+
+.project {
+  background-color: var(--clr-bg-alt);
 }
