@@ -1,4 +1,6 @@
 import { aboutPlus } from '../../portfolio'
+import photo from '../../lb-bb-2022.png'
+
 import './AboutPlus.css'
 
 const AboutPlus = () => {
@@ -6,10 +8,10 @@ const AboutPlus = () => {
 
   return (
     <div className='about center'>
-      {photoUrl && <img src={photoUrl} alt='This is me' />}
+      {photoUrl && <img className='bio-photo' src={photo} alt='This is me' />}
       <div className='about__contact center'>
         {blurb && (
-          <p>
+          <p className='big-font'>
             {blurb}
           </p>
         )}

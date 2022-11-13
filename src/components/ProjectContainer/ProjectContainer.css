@@ -32,6 +32,6 @@
   margin-left: 0.5em;
 }
 
-.project__link-item {
+.project__title {
   color: var(--clr-stdout)
 }
