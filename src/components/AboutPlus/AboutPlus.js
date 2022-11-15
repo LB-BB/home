@@ -8,7 +8,7 @@ const AboutPlus = () => {
 
   return (
     <div className='about center'>
-      {photoUrl && <img className='bio-photo' src={photo} alt='This is me' />}
+      {photo && <img className='bio-photo' src={photo} alt='This is me' />}
       <div className='about__contact center'>
         {blurb && (
           <p className='big-font'>
