@@ -9,7 +9,7 @@ const about = {
   name: 'LB Bradburn',
   role: 'Full Stack Engineer',
   description:
-    'I am a bug hunter with a test-driven mindset.',
+    'I am a test-driven bug hunter with full stack training.',
   resume: 'https://docs.google.com/document/d/1oEYQQDU4ESHVnc3ues3yzwuN1Skk7zclKHT80m0lSEw/edit#heading=h.6gy30nm7x8vl',
   social: {
     linkedin: 'https://www.linkedin.com/in/lb-bradburn/',

@@ -23,7 +23,7 @@ yarn start
 
 - Go to `package.json` file and replace -
 
-`"homepage": "https://rajshekhar26.github.io/cleanfolio"`
+`"homepage": "https://LB-BB.github.io/Portfolio-2022"`
 
 with `"homepage": "https://yourusername.github.io"`.
 
