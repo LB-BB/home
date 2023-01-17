@@ -55,7 +55,7 @@ const projects = [
 ]
 
 const skills = [
-  'Node', 'Javascript', 'Typescript', 'Git', 'REST APIs', 'React', 'Redux', 'Sequelize', 'Google', 'Apps', 'Script', 'Jest'
+  'Node', 'Javascript', 'Typescript', 'Git', 'REST APIs', 'React', 'Redux Toolkit', 'Sequelize', 'Google Apps Script', 'Jest'
 ]
 
 const contact = {
